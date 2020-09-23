@@ -27,9 +27,8 @@ def use_continue() -> None:
     for index in range(1 , 11):
         if index == 5:
             continue
-        else:
-            print(index)
-    pass
+        print(index)
+
 
 
 def main() -> None:
